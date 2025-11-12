@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ClubStand | Ashes Fantasy Cricket</title>
+  <meta name="description" content="ClubStand — £5 Ashes Fantasy Cricket. Pick your XI, 3 transfers per Test, prizes every Test, mini-leagues for mates. Follow @ClubStandHQ for launch." />
+  <link rel="icon" href="/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root { --green:#0E2410; --red:#C82020; --text:#ffffff; --muted:#cfd6cf; }
+    * { box-sizing: border-box; }
+    body { margin:0; font-family:'Montserrat',system-ui,-apple-system,Segoe UI,Roboto; background:var(--green); color:var(--text); }
+    .hero {
+      position: relative; height: 70vh; min-height: 420px; display:flex; align-items:center; justify-content:center; text-align:center;
+      background: url('/assets/clubstand_banner_A.png') center/cover no-repeat;
+      padding: 24px;
+    }
+    .hero .overlay { position:absolute; inset:0; background:rgba(0,0,0,0.35); }
+    .hero .content { position: relative; z-index: 1; max-width: 900px; }
+    .logo { width: 200px; height:auto; margin:0 auto 16px; display:block; }
+    h1 { font-size: clamp(2rem, 5vw, 3.2rem); margin: 8px 0; font-weight:800; }
+    .tag { display:inline-block; margin:10px 8px; padding:8px 14px; border:1px solid rgba(255,255,255,0.25); border-radius:999px; font-size:0.95rem; }
+    .cta { display:inline-block; margin-top:22px; padding:14px 26px; font-weight:700; background:var(--red); color:#fff; border-radius:10px; text-decoration:none; }
+    .section { max-width: 980px; margin: 40px auto; padding: 0 20px; }
+    .grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(240px,1fr)); gap:18px; margin-top:18px; }
+    .card { background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.12); border-radius:12px; padding:18px; text-align:left; }
+    .muted { color: var(--muted); font-size: 0.95rem; }
+    footer { text-align:center; padding: 40px 10px; color: var(--muted); border-top:1px solid rgba(255,255,255,0.1); }
+    a { color: #fff; }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <div class="overlay"></div>
+    <div class="content">
+      <img src="/assets/clubstand-horizontal-lockup.png" alt="ClubStand" class="logo" />
+      <h1>Ashes Fantasy Cricket — Launching Soon</h1>
+      <div>
+        <span class="tag">£5 entry</span>
+        <span class="tag">Prizes every Test</span>
+        <span class="tag">Mini‑leagues (avg score)</span>
+        <span class="tag">3 transfers per Test</span>
+      </div>
+      <a class="cta" href="https://x.com/ClubStandHQ" target="_blank" rel="noopener">Follow @ClubStandHQ for updates</a>
+    </div>
+  </header>
+
+  <section class="section">
+    <h2 style="margin:0 0 8px 0;">What is ClubStand?</h2>
+    <p class="muted">A fast, fun fantasy cricket game built by fans. Pick your XI, make smart swaps, and chase glory across the Ashes. Serious scoring, plenty of banter.</p>
+    <div class="grid">
+      <div class="card"><strong>How it works</strong><br/>Pick 11 players under a £100m cap. Roles & quotas apply. Score from runs, wickets, catches & bonuses. Daily updates.</div>
+      <div class="card"><strong>Deadlines</strong><br/>Team lock before the first ball of each Test. You’ll get 3 transfers before each new Test.</div>
+      <div class="card"><strong>Prizes</strong><br/>Guaranteed pots announced on launch: Test-by-Test winners + Overall Top 3. Mini‑league prize (≥6 players) by average score.</div>
+      <div class="card"><strong>Refunds</strong><br/>If the full series is cancelled before it begins, entries are refunded. Otherwise, prizes adjust pro‑rata to number of Tests played.</div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2 style="margin:0 0 8px 0;">When do we go live?</h2>
+    <p class="muted">We’re finalising the app now. Keep an eye on our X feed for the exact go‑live and entry window. Early birds get bonus perks 👀.</p>
+  </section>
+
+  <section class="section" style="text-align:center">
+    <p class="muted">Prefer a louder look? <a href="/assets/clubstand_banner_B.png" target="_blank" rel="noopener">See banner B</a>.</p>
+  </section>
+
+  <footer>© 2025 ClubStand. All rights reserved.</footer>
+</body>
+</html>
